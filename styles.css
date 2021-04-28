@@ -1,10 +1,28 @@
 body {
-    background-color: rgb(179, 115, 115);
+    background-color: white
 }
 
 .container {
     vertical-align: middle;
     margin-top: 200px;
+}
+
+.firstBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: auto;
+    background-color: rgb(204, 175, 122);
+}
+
+.secondBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    height: 100px;
     background-color: rgb(204, 175, 122);
 }
 
@@ -12,8 +30,8 @@ h1 {
     font-style: italic;
     color: white;
     text-align: center;
-    vertical-align: middle;
-    background-color: orange;
+    margin: auto;
+    background-color: rgb(211, 190, 190);
 }
 
 h2, p {
